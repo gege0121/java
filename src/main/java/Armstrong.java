@@ -1,15 +1,21 @@
-//public class Armstrong {
-//    public boolean armstrongnumber(Integer number){
-//        for (int i=0; i<10;i++){
-//            int a1 = i*i*i;
-//            for (int j=0; j<10;j++){
-//                int b1 = j*j*j;
-//                for (int x=0; x<10;x++){
-//                    int c1 = x*x*x;
-//                }
-//            }
-//            if (number==a1+b1+c1) return true;
-//        }
-//        return false;
-//    }
-//}
+public class ArmStrong {
+
+    public boolean isArmStrong(int number){
+     int original=number;
+     int result=0;
+     while (number!=0){
+         int reminder=number%10;
+         result=result+reminder*reminder*reminder;
+         number=number/10;
+     }
+     if(original==result) return true;
+     else return false;
+    }
+
+    public static void main(String[] args){
+        ArmStrong armStrong=new ArmStrong();
+        boolean a=armStrong.isArmStrong(55);
+        System.out.println(a);
+    }
+
+}
