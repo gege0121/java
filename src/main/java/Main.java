@@ -1,3 +1,5 @@
+import Java8.Stream.Person;
+
 public class Main {
     public static void main(String[] args){
         Person p=new Person();
@@ -20,7 +22,7 @@ public class Main {
         }
 
 //        //indexof()
-//        String s = "Test string";
+//        String s = "Java8.Stream.Test string";
 //        //how many "t" the string have
 //        int n1 = s.indexOf('t');
 //        //how many "st" the string have
