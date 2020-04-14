@@ -1,4 +1,8 @@
-public class Student extends Person{
+package Java8.Stream;
+
+import Java8.Stream.Person;
+
+public class Student extends Person {
     private int score;
 
     public void setScore(int score){
@@ -9,7 +13,7 @@ public class Student extends Person{
         return this.score;
     }
     void sayHi(){
-        System.out.println("Hi I am a Student");
+        System.out.println("Hi I am a Java8.Stream.Student");
     }
 
     public Student(){}

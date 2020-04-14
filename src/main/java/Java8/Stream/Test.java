@@ -1,3 +1,5 @@
+package Java8.Stream;
+
 import Compare.People;
 
 import java.util.ArrayList;

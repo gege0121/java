@@ -1,3 +1,5 @@
+package Java8.Stream;
+
 public class Person {
     private int age;
     private  String name;
@@ -8,12 +10,12 @@ public class Person {
         System.out.println("Hi");
     }
     //constructor default
-    //new Person();
+    //new Java8.Stream.Person();
     public Person(){
     }
 
     //constructor
-    // >>>>>new Person("gg",22);
+    // >>>>>new Java8.Stream.Person("gg",22);
     public Person(String name, int age){
         this.name=name;
         this.age=age;
