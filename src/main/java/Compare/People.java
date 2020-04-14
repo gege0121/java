@@ -1,3 +1,5 @@
+package Compare;
+
 public class People implements Comparable<People> {
     private String name;
     private Integer salary;
@@ -50,7 +52,7 @@ public class People implements Comparable<People> {
     }
 
 //    public int compareTo(Object o) {
-//        People input =(People)o;
+//        Compare.People input =(Compare.People)o;
     //// casting
 //        return this.age-input.age;
 //    }
