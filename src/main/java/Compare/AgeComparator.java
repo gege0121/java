@@ -1,7 +1,5 @@
 package Compare;
 
-import Compare.People;
-
 import java.util.Comparator;
 
 public class AgeComparator implements Comparator<People> {
