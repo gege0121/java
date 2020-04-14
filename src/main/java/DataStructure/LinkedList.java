@@ -1,3 +1,5 @@
+package DataStructure;
+
 public class LinkedList {
     //define linkedlist
     Node head;
