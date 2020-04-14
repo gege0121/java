@@ -1,7 +1,7 @@
 //
 ////Merge Two Sorted Lists
 //
-//import java.util.LinkedList;
+//import java.util.DataStructure.LinkedList;
 //
 //public class Solution {
 //        public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
