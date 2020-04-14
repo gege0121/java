@@ -1,3 +1,5 @@
+import Interview.RomoveSpecficChar;
+
 public class RomoveSpecficCharTest {
     public static void main(String[] args) {
         RomoveSpecficChar r = new RomoveSpecficChar();

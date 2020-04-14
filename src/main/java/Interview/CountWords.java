@@ -1,3 +1,5 @@
+package Interview;
+
 public class CountWords {
 //    public static void main(String[] args) {
 //        String s = "i am amazing";

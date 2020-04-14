@@ -1,3 +1,5 @@
+package Interview;
+
 public class FizzBuzz {
     //fizz----3
     //Buzz----5
@@ -5,7 +7,7 @@ public class FizzBuzz {
 
     public String fiz(Integer integer){
         if (integer%3==0){
-            if (integer%5==0) return "FizzBuzz";
+            if (integer%5==0) return "Interview.FizzBuzz";
             else return "Fizz";
         }
         else if (integer%5==0) return "Buzz";

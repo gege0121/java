@@ -1,3 +1,5 @@
+package Interview;
+
 public class CheckPrime {
 
     public boolean check1(int number){

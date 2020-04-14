@@ -1,3 +1,5 @@
+package Interview;
+
 public class Palindrome {
     public boolean pal(Integer num){
         int Oringinal=num;

@@ -1,5 +1,7 @@
+package Interview;
+
 public class Fibonacci {
-    //Given a number n, print n-th Fibonacci Number.
+    //Given a number n, print n-th Interview.Fibonacci Number.
     public int fibonacciRecursive(int x){
         if (x==0) return 0;
         if (x==1) return 1;

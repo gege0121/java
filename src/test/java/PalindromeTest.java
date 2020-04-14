@@ -1,3 +1,5 @@
+import Interview.Palindrome;
+
 public class PalindromeTest {
     public static void main(String[] args) {
         Palindrome pp = new Palindrome();

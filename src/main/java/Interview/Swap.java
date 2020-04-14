@@ -1,3 +1,5 @@
+package Interview;
+
 public class Swap {
 
     public void swap1(int x, int y){

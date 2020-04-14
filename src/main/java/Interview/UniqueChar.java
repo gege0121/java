@@ -1,3 +1,5 @@
+package Interview;
+
 import java.util.HashMap;
 
 class UniqueChar {

@@ -1,3 +1,5 @@
+package Interview;
+
 public class Factorial {
 //revursive
     public int fac(int n){

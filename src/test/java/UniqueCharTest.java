@@ -1,3 +1,5 @@
+import Interview.UniqueChar;
+
 public class UniqueCharTest {
     public static void main(String[] args) {
         UniqueChar gg=new UniqueChar();

@@ -1,3 +1,5 @@
+package Interview;
+
 public class ArmStrong {
 
     public boolean isArmStrong(int number){
