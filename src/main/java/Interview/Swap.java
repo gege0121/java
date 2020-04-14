@@ -23,5 +23,6 @@ public class Swap {
         int x=2,y=3;
         swap.swap1(x,y);
         swap.swap2(x,y);
+        System.out.println("x = "+" "+ x + " "+ "and y is " + y);
     }
 }

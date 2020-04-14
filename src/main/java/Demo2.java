@@ -40,7 +40,7 @@ public class Demo2 {
 //        for (char c : chars) {
 //            listC.add(c);
 //        }
-//        listC.addAll(chars,array);
+//        listC.addAll(chars,DataStructure.array);
 //
 //    }
 

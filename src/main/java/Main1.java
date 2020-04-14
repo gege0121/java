@@ -4,6 +4,7 @@ public class Main1 {
             Integer temp = new Integer(i);
             i = j;
             j = temp;
+            System.out.println("i="+" "+i+"and j="+j);
         }
         public static void main(String[] args) {
             Integer i = new Integer(10);
