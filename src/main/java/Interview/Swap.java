@@ -22,7 +22,7 @@ public class Swap {
         Swap swap=new Swap();
         int x=2,y=3;
         swap.swap1(x,y);
-        swap.swap2(x,y);
+//        swap.swap2(1,2);
         System.out.println("x = "+" "+ x + " "+ "and y is " + y);
     }
 }

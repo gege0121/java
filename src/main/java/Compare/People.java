@@ -5,6 +5,11 @@ public class People implements Comparable<People> {
     private Integer salary;
     private Integer age;
 
+    public People(String name, Integer salary, Integer age){
+        this.name=name;
+        this.salary=salary;
+        this.age=age;
+    }
 
     public String getName() {
         return name;
@@ -33,29 +38,14 @@ public class People implements Comparable<People> {
         this.age = age;
     }
 
-
+    public boolean isQualified() {
+        return  age==25;
+    }
 
     public int compareTo(People people) {
         return this.age - people.age;
 
     }
-
-    public boolean isQualified() {
-        return  age==25;
-    }
-
-
-    public People(String name, Integer salary, Integer age){
-        this.name=name;
-        this.salary=salary;
-        this.age=age;
-    }
-
-//    public int compareTo(Object o) {
-//        Compare.People input =(Compare.People)o;
-    //// casting
-//        return this.age-input.age;
-//    }
 
     public String toString(){
         return getName() + " " + getAge() + " " + getSalary();
