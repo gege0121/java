@@ -1,5 +1,6 @@
-#Java Basic
+# Java Basic
 
-##Idea
+## Idea
+A repo to record my java learning experience. :monkey:	
 
 
