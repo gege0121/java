@@ -1,6 +1,7 @@
 package Compare;
 
 public class People implements Comparable<People> {
+    private int id;
     private String name;
     private Integer salary;
     private Integer age;
@@ -9,6 +10,13 @@ public class People implements Comparable<People> {
         this.name=name;
         this.salary=salary;
         this.age=age;
+    }
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
