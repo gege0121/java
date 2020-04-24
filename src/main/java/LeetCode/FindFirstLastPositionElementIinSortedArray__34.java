@@ -1,12 +1,12 @@
 package LeetCode;
 
-public class __34 {
+public class FindFirstLastPositionElementIinSortedArray__34 {
     public int[] searchRange(int[] A, int target) {
-        int start = .firstGreaterEqual(A, target);
+        int start = FindFirstLastPositionElementIinSortedArray__34.firstGreaterEqual(A, target);
         if (start == A.length || A[start] != target) {
             return new int[]{-1, -1};
         }
-        return new int[]{start, Solution.firstGreaterEqual(A, target + 1) - 1};
+        return new int[]{start, FindFirstLastPositionElementIinSortedArray__34.firstGreaterEqual(A, target + 1) - 1};
     }
 
     //find the first number that is greater than or equal to target.

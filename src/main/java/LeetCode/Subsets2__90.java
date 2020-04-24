@@ -4,7 +4,17 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Subsets2__ {
+//Input: [1,2,2]
+//        Output:
+//        [
+//        [2],
+//        [1],
+//        [1,2,2],
+//        [2,2],
+//        [1,2],
+//        []
+//        ]
+public class Subsets2__90 {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
         Arrays.sort(nums);

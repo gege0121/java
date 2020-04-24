@@ -3,8 +3,19 @@ package LeetCode;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-public class Subsets {
+//Input: nums = [1,2,3]
+//        Output:
+//        [
+//        [3],
+//        [1],
+//        [2],
+//        [1,2,3],
+//        [1,3],
+//        [2,3],
+//        [1,2],
+//        []
+//        ]
+public class Subsets__78 {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
         Arrays.sort(nums);

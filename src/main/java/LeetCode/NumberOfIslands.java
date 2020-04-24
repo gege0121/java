@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class Number {
+public class NumberOfIslands {
     static int numIslands(int[][] map) {
         int count = 0;
         for (int i = 0; i < map.length; i++){

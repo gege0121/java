@@ -3,7 +3,7 @@ package LeetCode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PalindromePartitioning {
+public class PalindromePartitioning__131 {
     List<List<String>> resultLst;
     ArrayList<String> currLst;
     public List<List<String>> partition(String s) {
