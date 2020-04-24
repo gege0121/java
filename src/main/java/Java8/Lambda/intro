@@ -1,0 +1,9 @@
+stream
+1. sequence of objects that supports various methods which can be piplined to produce the desired results.
+2. intermediate
+    terminate：toArray();collect();
+3
+    (1)flatmap:打开两次变成list   //   map,map后不改变数据结构==foreach+map
+    (2)limit(): 挑第一条记录
+        sql:一样
+    (3)keyset()    //     values().

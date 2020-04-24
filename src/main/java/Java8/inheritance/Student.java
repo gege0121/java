@@ -1,6 +1,4 @@
-package Java8.Stream;
-
-import Java8.Stream.Person;
+package Java8.inheritance;
 
 public class Student extends Person {
     private int score;

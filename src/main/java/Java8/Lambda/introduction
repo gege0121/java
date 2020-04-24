@@ -1,0 +1,8 @@
+1.functional interface:只有一个abstract method；在implement中可以用lambda expression来实现，
+  Before Java 8, we had to create anonymous inner class objects or implement these interfaces.
+
+2.常见的lambda表达式：
+（1）打印(list<String> items)
+items.forEach((String x)->{System.out.println(x)});
+可以简写：items.forEach(x)->{System.out.println(x)};
+（2）写比较：Comparator<People> age1comparator=( p1, p2)->(int)(p1.getAge()-p2.getAge());  //comparable不行

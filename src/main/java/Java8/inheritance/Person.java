@@ -1,4 +1,4 @@
-package Java8.Stream;
+package Java8.inheritance;
 
 public class Person {
     private int age;
