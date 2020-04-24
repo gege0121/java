@@ -1,4 +1,4 @@
-import Java8.Stream.Person;
+import Java8.inheritance.Person;
 
 public class Main {
     public static void main(String[] args){
