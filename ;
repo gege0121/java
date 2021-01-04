@@ -1,0 +1,46 @@
+t
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: 格格 <gege@gegedeMacBook-Pro.local>
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   src/main/java/LeetCode/Alog.java
+#	modified:   src/main/java/LeetCode/BaseballGame__682.java
+#	new file:   src/main/java/LeetCode/BinaryTreeTraversal__102.java
+#	new file:   src/main/java/LeetCode/Binarysearch.java
+#	new file:   src/main/java/LeetCode/Cc.java
+#	new file:   src/main/java/LeetCode/GraphValidTree.java
+#	new file:   src/main/java/LeetCode/LevelOrderTraversal.java
+#	new file:   src/main/java/LeetCode/LongestSubstring.java
+#	modified:   src/main/java/LeetCode/NumberOfIslands.java
+#	new file:   src/main/java/LeetCode/Solution.java
+#	new file:   src/main/java/LeetCode/ThreeSum.java
+#	new file:   src/main/java/LeetCode/TwoSum___1.java
+#	new file:   src/main/java/LeetCode/VaildBrackets.java
+#
+# Changes not staged for commit:
+#	modified:   src/main/java/Compare/People.java
+#	modified:   src/main/java/Compare/Test1.java
+#	modified:   src/main/java/DataStructure/LinkedList.java
+#	modified:   src/main/java/Interview/Duplicates.java
+#	modified:   src/main/java/Interview/Factorial.java
+#	modified:   src/main/java/Interview/FizzBuzz.java
+#	modified:   src/main/java/Interview/Permutation.java
+#	modified:   src/main/java/Interview/UniqueChar.java
+#	modified:   src/main/java/Java8/Lambda/Square.java
+#
+# Untracked files:
+#	src/main/java/DataStructure/BinaryTree.java
+#	src/main/java/DataStructure/Interval.java
+#	src/main/java/DesignPattern/FizzBuzz/
+#	src/main/java/Interview/FizzBuzzTest.java
+#	src/main/java/Interview/OA1.java
+#	src/main/java/Java8/Concurrency/
+#	src/main/java/ReserveString.java
+#	src/main/java/Solution.java
+#	src/main/java/jaja/
+#

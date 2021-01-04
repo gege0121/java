@@ -29,6 +29,7 @@ public class Test2 {
         System.out.println("The Structure after flattening is : " + listofInts);
 
 
+        //use two map
         List<List<Integer>> listoflist=listOfListofInts.stream()
                 .map(e->e.stream().map(i->i+1).collect(Collectors.toList()))
                 .collect(Collectors.toList());
@@ -40,7 +41,7 @@ public class Test2 {
                     listoflist1.add(e.stream().map(i->i+1).collect(Collectors.toList()));
                 }
                 );
-        System.out.println("The Structure after foreach and map is : " + listoflist);
+        System.out.println("The Structure after foreach and map is : " + listoflist1);
     }
 }
 

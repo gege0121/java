@@ -1,9 +1,6 @@
 package Compare;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Test1 {
@@ -17,10 +14,14 @@ public class Test1 {
         int d=ageComparator.compare(a,b);
         System.out.println(d);
 
-        //用lambda expression来写comparator比较
-        Comparator<People> age1comparator=(People p1,People p2)->(int)(p1.getAge()-p2.getAge());
+        //people里面定义了
         int e=a.compareTo(b);
         System.out.println(e);
+
+        //用lambda expression来写comparator比较
+        Comparator<People> age1comparator=(People p1,People p2)->(int)(p1.getAge()-p2.getAge());
+        Comparator<People> age2compare=(People p1, People p2)->p1.getAge().compareTo(p2.getAge());
+
 
         //list存people
         List<People> list=new ArrayList<>();
@@ -37,7 +38,7 @@ public class Test1 {
         List<People> r1=list.stream().filter(p->p.getAge()==55).collect(Collectors.toList());
         System.out.println(r1);
 
-        //map: 给一个object，得到ogject.attribute()
+        //map: 给一个object，得到object.attribute()
         List<String> r2=list.stream().map(p->p.getName()).collect(Collectors.toList());
         System.out.println(r2);
 
@@ -45,18 +46,32 @@ public class Test1 {
         String joind=list.stream().map(p->p.getName()).collect(Collectors.joining("."));
         System.out.println(joind);
 
-        //list<People> 转map<name,people>
+        //toMap: list<People> 转map<name,people>
         Map<String,People> map=list.stream().collect(Collectors.toMap(People::getName,p->p,(k1,k2)->k1));
         map.forEach((k,v)->System.out.println("Name : " + k + " Info : " + v));
 
         //map<name,people> 存List<people>
+        //value
         List<People> l1=map.values().stream().collect(Collectors.toList());
         l1.forEach(i->System.out.println(i));
 
+        //key
         List<String> l2=map.keySet().stream().collect(Collectors.toList());
         l2.forEach(i->System.out.println(i));
 
+        //entryset
         List<Object> l3=map.entrySet().stream().map(er->er.getKey()+" "+er.getValue()).collect(Collectors.toList());
         l3.forEach(i->System.out.println(i));
+
+
+        Map<String, String> m = new HashMap<String, String>();
+        m.put("Hello", "World");
+        m.put("Apple", "3.14");
+        m.put("Another", "Element");
+
+
+        List<String> listkey = new ArrayList<String>(m.keySet());
+        List<String> listvalue = new ArrayList<String>(m.values());
+
     }
 }

@@ -3,6 +3,7 @@ package Interview;
 import java.util.HashMap;
 
 class UniqueChar {
+    //148
     public int firstUniqChar(String s) {
         HashMap<Character, Integer> count = new HashMap<Character, Integer>();
         int n = s.length();
@@ -19,5 +20,6 @@ class UniqueChar {
         }
         return -1;
     }
+
 
 }

@@ -46,13 +46,13 @@ public class People implements Comparable<People> {
         this.age = age;
     }
 
-    public boolean isQualified() {
+    public boolean isQualified(){
         return  age==25;
     }
-
-    public int compareTo(People people) {
+    //使用多的时候用
+    //comparator一次性比较 灵活
+    public int compareTo(People people){
         return this.age - people.age;
-
     }
 
     public String toString(){
